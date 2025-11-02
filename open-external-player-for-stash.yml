@@ -1,0 +1,15 @@
+name: Open External Player for Stash
+description: Open scene filepath on client Mac using IINA via custom URL scheme
+version: 0.3.0
+url: https://github.com/your-org/open_media_player
+ui:
+  javascript:
+    - open-external-player-for-stash.js
+settings:
+  pathPrefixServer:
+    displayName: Server Path Prefix
+    type: STRING
+  pathPrefixClient:
+    displayName: Client Path Prefix (macOS reachable)
+    type: STRING
+interface: raw
